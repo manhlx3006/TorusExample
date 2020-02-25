@@ -14,7 +14,6 @@
 		C6A984E42404C0220005C225 /* TorusSDKExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A984E32404C0220005C225 /* TorusSDKExampleUITests.swift */; };
 		C6A984F22404C0550005C225 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = C6A984F12404C0550005C225 /* index.html */; };
 		C6A984F72404C22F0005C225 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A984F52404C22F0005C225 /* ViewController.swift */; };
-		C6A984F82404C22F0005C225 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6A984F62404C22F0005C225 /* ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +47,6 @@
 		C6A984E52404C0220005C225 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6A984F12404C0550005C225 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 		C6A984F52404C22F0005C225 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C6A984F62404C22F0005C225 /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +103,6 @@
 				C6A984CF2404C0220005C225 /* Info.plist */,
 				C6A984F12404C0550005C225 /* index.html */,
 				C6A984F52404C22F0005C225 /* ViewController.swift */,
-				C6A984F62404C22F0005C225 /* ViewController.xib */,
 			);
 			path = TorusSDKExample;
 			sourceTree = "<group>";
@@ -232,7 +229,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6A984F82404C22F0005C225 /* ViewController.xib in Resources */,
 				C6A984CE2404C0220005C225 /* LaunchScreen.storyboard in Resources */,
 				C6A984F22404C0550005C225 /* index.html in Resources */,
 				C6A984C82404C0220005C225 /* Assets.xcassets in Resources */,
