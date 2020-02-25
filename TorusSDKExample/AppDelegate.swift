@@ -15,6 +15,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
     // Override point for customization after application launch.
+    let userAgent = "Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/603.1.23 (KHTML, like Gecko) Version/10.0 Mobile/14E5239e Safari/602"
+    UserDefaults.standard.register(defaults: ["UserAgent": userAgent])
+    
     let window = UIWindow(frame: UIScreen.main.bounds)
     window.rootViewController = UINavigationController(rootViewController: ViewController())
     self.window = window
